@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #212529;
+}
+.menu-icon{
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+}
+#MenuItems li{
+  margin-right: 3rem;
+}
+.banner-text h3::after{
+  content: '';
+  height: 2px;
+  width: 12vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.crd{
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);;
+}
+.f-link {
+  transition: all .2s;
+  color: #58595b;
+}
+.f-link:hover {
+  background-color: #e45447;
+  color: #f2f0ee;
+  box-shadow: 0 1rem 2rem rgb(43 41 41 / 40%);
+  transform: rotate(-5deg) scale(1.1);
+}

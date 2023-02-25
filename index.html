@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="particles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body class="">
+
+
+
+  <!-- particles.js container -->
+  <div id="particles-js">
+  </div>
+  <div class="count-particles relative">
+    <div class="py-[4rem]">
+      <div class="crd w-[1088px] mx-auto p-[2rem] bg-[#fff] rounded-lg">
+        <div class="container mx-auto">
+          <div class="navbar flex justify-between items-center">
+            <div class="logo">
+              <img src="image/letter R .png" width="100px">
+            </div>
+            <div class="flex gap-4">
+              <a href="#">
+                <button class="focus:outline-none py-1 px-2 capitalize f-link flex items-center">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-[.75rem] mr-1.5">
+                    <path fill="currentColor"
+                      d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+                      class=""></path>
+                  </svg>
+                  <span>works</span>
+                </button>
+              </a>
+              <a href="#">
+                <button class="focus:outline-none py-1 px-2 capitalize f-link flex items-center">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-tie" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-[.75rem] mr-1.5">
+                    <path fill="currentColor"
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"
+                      class=""></path>
+                  </svg>
+                  <span>resume</span>
+                </button>
+              </a>
+              <a href="#">
+                <button class="focus:outline-none py-1 px-2 capitalize f-link flex items-center">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-[.75rem] mr-1.5">
+                    <path fill="currentColor"
+                      d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                      class=""></path>
+                  </svg>
+                  <span>shelf</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="container mx-auto py-[7rem] flex justify-between items-center">
+            <div class="banner-text">
+              <h3 class="text-[50px] font-bold flex items-baseline">Hey</h3>
+              <h1 class="text-[4rem] font-bold uppercase">
+                i am Riyad
+              </h1>
+              <p class="uppercase font-bold text-[1.5rem]">junior frontend developer</p>
+            </div>
+            <div class="">
+              <img class="max-w-[25rem] min-w-[10rem]" src="./image/banner-image.png" alt="banner-image.png">
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <div class="container mx-auto py-[7rem] flex">
+            <div>
+              <img class="max-w-[25rem] min-w-[10rem]" src="./image/about-us.png" alt="about-us.png">
+            </div>
+            <div class="xl:ml-[5rem]">
+              <h2 class="uppercase pt-5 flex flex-col text-[45px] font-[600] tracking-[10px]">
+                <span>Let Me</span>
+                <span>introduce</span>
+                <span>myself</span>
+              </h2>
+              <p class="py-[2rem] text-[#777777] font-[500]">I am a front-end web developer with a passion for
+                building
+                intuitive and
+                visually
+                appealing websites. I strongly understand HTML, CSS, and JavaScript, and I am always looking to learn
+                and
+                improve my skills.</p>
+              <p class="py-[2rem] text-[#777777] font-[500]">When I am not coding, I am either playing chess,
+                soccer,or
+                video
+                game. Other times I am reading or learning
+                a new language or framework.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="particles.js"></script>
+</body>
+
+</html>
