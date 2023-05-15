@@ -41,3 +41,15 @@ h1,h2,h3,h4,h5,h6,p,span {
   box-shadow: 0 1rem 2rem rgb(43 41 41 / 40%);
   transform: rotate(-5deg) scale(1.1);
 }
+.rgb{
+  background-color: #607393;
+  background-color: rgba(96,115,147,var(--bg-opacity));
+}
+.p-card{
+  position: relative;
+  box-shadow: 0 0.332071px 2.21381px rgb(0 0 0 / 1%), 0 0.798012px 5.32008px rgb(0 0 0 / 3%), 0 1.50259px 10.0172px rgb(0 0 0 / 4%), 0 2.68036px 17.869px rgb(0 0 0 / 5%), 0 5.01331px 33.4221px rgb(0 0 0 / 6%), 0 12px 80px rgb(0 0 0 / 9%);
+  border-radius: 0.5rem;
+  transition: all .2s;
+  cursor: pointer;
+}
+  
