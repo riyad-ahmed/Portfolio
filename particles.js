@@ -1,3 +1,5 @@
+// window.addEventListener('DOMContentLoaded',
+//   (event) => {
 particlesJS("particles-js",
   {
     "particles":
@@ -126,5 +128,5 @@ update = function () {
   } requestAnimationFrame(update);
 }; requestAnimationFrame(update);
 
-
+  // });
 
